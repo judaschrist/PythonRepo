@@ -18,7 +18,7 @@ URLS['mozilla'] = "https://bugzilla.mozilla.org/report.cgi?bug_status=UNCONFIRME
 URLS['kde'] = "https://bugs.kde.org/report.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=NEEDSINFO&bug_status=VERIFIED&bug_status=CLOSED&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=LATER&resolution=REMIND&resolution=DUPLICATE&resolution=WORKSFORME&resolution=MOVED&resolution=UPSTREAM&resolution=DOWNSTREAM&resolution=WAITINGFORINFO&resolution=BACKTRACE&resolution=UNMAINTAINED&x_axis_field=resolution&y_axis_field=bug_status&width=600&height=350&action=wrap&ctype=csv&format=table"
 URLS['apache'] = "https://issues.apache.org/bugzilla/report.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=LATER&resolution=REMIND&resolution=DUPLICATE&resolution=WORKSFORME&resolution=MOVED&x_axis_field=resolution&y_axis_field=bug_status&width=1024&height=600&action=wrap&ctype=csv&format=table"
 DIR = 'data_per_day'
-RETRY_NUM = 3
+RETRY_NUM = 5
 
 if not os.path.exists(DIR):
     os.mkdir(DIR)
